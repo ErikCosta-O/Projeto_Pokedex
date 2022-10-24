@@ -1,0 +1,102 @@
+.pokemon-card{
+    box-shadow: 0px 0px 64px -3px rgba(0,0,0,0.2);
+    border-radius: 20px 20px 30px 30px;
+    display: none;
+}
+
+.pokemon-card .card-top{
+    padding: 20px 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pokemon-card .name{
+    margin-bottom: 15px;
+}
+.pokemon-card .type{
+    font-size: 15px;
+    background-color: #fbfefb;
+    border-radius: 0.5vh;
+    padding: 2px 10px;
+    box-shadow: 0px 0px 50px -3px rgba(0,0,0,0.2);
+}
+
+.pokemon-card .details{
+    color: #fbfefb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pokemon-card .card-img{
+    padding-top: 40px;
+    padding-left: 40px;
+    width: 400px;
+    height: 400px;
+}
+.pokemon-card img{
+    max-height: 100%;
+}
+
+.pokemon-card .card-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px 50px;
+    margin-top: -80px;
+    background-color: #fff;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px -35px 32px 16px rgba(0,0,0,0.1);
+}
+
+.pokemon-card .card-info h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid black;
+}
+.pokemon-card .card-info .status .ability{
+    padding: 0px;
+    width: 0px;
+}
+.pokemon-card .card-info .status ul li{
+    border-bottom: 3px solid black;
+    padding: 0px 0px 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.pokemon-card .card-info .ability ul li{
+    border-bottom: 3px solid black;
+    padding: 0px 0px 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.pokemon-card.open{
+    display: block;
+}
+.eletric-type{
+    background-color: #ffd695;
+}
+.grass-type{
+    background-color: #add2c2;
+}
+.fire-type{
+    background-color: #ff928b;
+}
+.water-type{
+    background-color: #bfdbf7;
+}
+.ghost-type{
+    background-color: #b388eb;
+}
+.dragon-type{
+    background-color: #ff9b85;
+}
+
+/*pikachu #ffd670
+bulbasaur #add2c2
+charmander #ff928b
+Squirtle #bfdbf7
+gengar #b388eb
+dragonaite #ff9b85
+*/
+
